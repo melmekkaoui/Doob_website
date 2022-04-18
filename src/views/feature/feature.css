@@ -1,0 +1,36 @@
+.feature{
+    margin-top:200px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.feature::before{
+    content: url('../../assets/BgFeatureLeft.png');
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.feature::after{
+    content: url('../../assets/BgFeatureRight.png');
+    position: absolute;
+    top: 200px;
+    right: 0;
+}
+.feature .feature__content{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,2fr));
+    gap: 60px;
+}
+.feature .feature__content .feature__info{
+    z-index:2;
+}
+.feature .feature__content .feature__info .feature__title{
+    color: var(--main-color-blue);
+    font-size:30px;
+    margin-bottom:45px;
+}
+.feature .feature__content .feature__info a{
+    font-size:13px !important;
+}

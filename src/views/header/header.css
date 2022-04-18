@@ -1,0 +1,108 @@
+.header{
+    
+    position: relative;
+    
+
+}
+.header::before{
+    content:url('../../assets/Bg.\ Shape.png');
+    position: absolute;
+    top: O;
+    right: 0;
+    width: 60%;
+    z-index: 1;
+   
+}
+.header .container .header__content{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding-top:150px;
+    
+}
+.header .container .header__content .header__intro{
+    z-index: 2;
+}
+.header .container .header__content .header__intro .header__intro_title{
+    font-size:60px;
+   color: var(--main-color-blue);
+}
+.header .container .header__content .header__intro .header__intro_text{
+    font-size:20px;
+    color: rgb(125, 125, 125);
+    line-height: 1.8em;
+    margin-bottom: 45px;
+}
+.header .container .header__content .header__intro .header__btn{
+    margin-top: 30px;
+}
+.header .container .header__content .header__intro .main_btn{
+    background-color:var(--secondary-color);
+    padding: 15px 30px;
+    border-radius:40px;
+    text-decoration: none;
+    color: white;
+    font-weight:600;
+    margin-right: 30px;
+    font-size: 20px;
+    transition:var(--main-transition);
+}
+.header .container .header__content .header__intro .main_btn:hover{
+    background-color:crimson;
+}
+.header .container .header__content .header__intro .Secondary-btn{
+    color: var(--main-color-blue);
+    font-size:20px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: var(--main-transition);
+}
+.header .container .header__content .header__intro .Secondary-btn:hover{
+    color:var(--main-color);
+}
+
+.header .container .header__content .header__img{
+    z-index: 2;
+}
+@media screen and (max-width:1211px) {
+    .header::before{
+        width: 50%;
+    }
+    .header .container .header__content .header__intro .header__intro_title{
+        font-size:30px;
+    }
+    .header .container .header__content .header__intro .header__intro_text{
+        font-size: 15px;
+        width:70%;
+    }
+    .header .container .header__content .header__intro .main_btn{
+        padding: 10px 20px;
+        font-size:13px;
+    }
+    .header .container .header__content .header__intro .Secondary-btn{
+        font-size:13px;
+    }
+    .header .container .header__content .header__img{
+        width:70%;
+    }
+    .header .container .header__content .header__img img{
+        width:100%;
+    }
+}
+@media screen and (max-width:779px) {
+    .header .container .header__content{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .header .container .header__content .header__img{
+        width: 90%;
+    }
+    .header .container .header__content .header__intro{
+        width: 90%;
+        text-align: center;
+    }
+    .header .container .header__content .header__intro .header__intro_text{
+        width: 90%;
+    }
+}

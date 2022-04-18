@@ -1,0 +1,20 @@
+.News{
+    margin-top: 210px;
+}
+.News .news__title{
+    
+}
+.News .news__title h3{
+    color:var(--secondary-color);
+    font-weight:600;
+}
+
+.News .news__title h2{
+    color:var(--main-color-blue);
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.News .plide__arrows{
+    display: none;
+}

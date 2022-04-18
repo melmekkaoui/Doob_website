@@ -1,0 +1,50 @@
+.gallery{
+    margin-top:250px;
+    position: relative;
+
+}
+.gallery::before{
+    position: absolute;
+    content: url('../../assets/Bg.\ Shape.png');
+    top:100px;
+    left: 0;
+    transform: rotateY(180deg);
+    width: 50%;
+}
+.gallery .head-gallery{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gallery .gallery-title{
+    color: var(--main-color-blue);
+    font-size:40px;
+    margin-bottom:40px;
+    font-weight:500;
+    z-index: 2;
+}
+
+.gallery .gallery-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    gap: 30px;
+
+}
+
+.gallery .footer-gallery{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top:70px;
+}
+.gallery .footer-gallery .gallery-btn{
+    color:var(--secondary-color);
+    font-size:24px;
+    text-decoration: none;
+    transition:var(--main-transition);
+    font-weight:bold;
+    z-index: 2;
+}
+.gallery .footer-gallery .gallery-btn:hover{
+    color:var(--main-color-blue);
+}

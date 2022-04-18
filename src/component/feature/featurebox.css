@@ -1,0 +1,20 @@
+.feature__box{
+    background-color: #fff;
+    box-shadow: 0px 0px 4px -1px #000;
+    padding: 36px;
+    z-index: 3;
+}
+.feature__box i{
+    font-size:60px;
+    color: var(--main-color-blue);
+}
+.feature__box h2{
+    font-size: 23px;
+    margin-top: 30px;
+    color: var(--main-color-blue);
+}
+.feature__box .feature_text{
+    font-size:13px;
+    line-height: 1.8em;
+    color: rgb(125, 125, 125);
+}
