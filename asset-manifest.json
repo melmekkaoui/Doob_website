@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Doob_website/static/css/main.a8fc55f7.css",
+    "main.js": "/Doob_website/static/js/main.cae81e3a.js",
+    "static/media/UXUI2.png": "/Doob_website/static/media/UXUI2.a5debb5dadc081541915.png",
+    "static/media/wordpress1.jpg": "/Doob_website/static/media/wordpress1.bbe795c86cc8d9956809.jpg",
+    "static/media/wordpress.jpg": "/Doob_website/static/media/wordpress.9629c8902b755f20e968.jpg",
+    "static/media/UXUI1.png": "/Doob_website/static/media/UXUI1.02ea3944e14300d44b39.png",
+    "static/media/graphicD2.jpg": "/Doob_website/static/media/graphicD2.e29d6715668acda6ff4f.jpg",
+    "static/media/Illustration.svg": "/Doob_website/static/media/Illustration.05507f7b1d49c7db1a3cbcd1b7c2d941.svg",
+    "static/media/graphicD1.jpeg": "/Doob_website/static/media/graphicD1.3f3dd9cbfb9b637cb599.jpeg",
+    "static/media/vectorillustra.png": "/Doob_website/static/media/vectorillustra.a6d62d6be268920445de.png",
+    "static/media/Bg. Shape.png": "/Doob_website/static/media/Bg. Shape.410c5226237c3f3d286a.png",
+    "index.html": "/Doob_website/index.html",
+    "main.a8fc55f7.css.map": "/Doob_website/static/css/main.a8fc55f7.css.map",
+    "main.cae81e3a.js.map": "/Doob_website/static/js/main.cae81e3a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8fc55f7.css",
+    "static/js/main.cae81e3a.js"
+  ]
+}
